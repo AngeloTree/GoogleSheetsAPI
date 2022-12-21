@@ -12,7 +12,10 @@ app.get("/", async (req, res) => {
     scopes: "https://www.googleapis.com/auth/spreadsheets",
   });
 
+  // Create client instance for auth
   const client = await auth.getClient();
+
+  // Instance of Google Sheets API
 });
 
 app.listen(3000, (req, res) => {
