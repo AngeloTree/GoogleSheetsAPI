@@ -15,7 +15,7 @@ app.get("/", async (req, res) => {
   // Create client instance for auth
   const client = await auth.getClient();
 
-  // Instance of Google Sheets API n
+  // Instance of Google Sheets API
 });
 
 app.listen(3000, (req, res) => {
